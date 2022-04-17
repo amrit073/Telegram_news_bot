@@ -1,7 +1,7 @@
 import os
 import telebot
 import requests
-from bs4 import BeautifulSoup
+
 
 
 API_KEY = os.environ['API_KEY']
