@@ -44,7 +44,7 @@ def test(message):
       bot.send_message(message.chat.id, news[i])
     
   else:
-    	bot.reply_to(message, f'aru kei bujdina yrr{message.from_user.first_name}')
+    	bot.reply_to(message, f'Oh i dont understand you silly {message.from_user.first_name}')
 
 
   
